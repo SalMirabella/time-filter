@@ -5,10 +5,7 @@ import dayjs from 'dayjs';
   providedIn: 'root'
 })
 export class TimeDataService {
-  /**
-   * Genera una lista di dati casuali su base giornaliera
-   * per un intervallo predefinito (ultimi 90 giorni).
-   */
+
   generateDemoData(): { date: string; value: number }[] {
     const end = new Date();
     const start = new Date();
