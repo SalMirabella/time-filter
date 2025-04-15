@@ -11,7 +11,9 @@ import {
   TooltipComponent,
   GridComponent,
   DatasetComponent,
-  DataZoomComponent
+  DataZoomComponent,
+  ToolboxComponent,
+  BrushComponent
 } from 'echarts/components';
 import { CanvasRenderer } from 'echarts/renderers';
 
@@ -23,7 +25,9 @@ echarts.use([
   GridComponent,
   DatasetComponent,
   DataZoomComponent,
-  CanvasRenderer
+  CanvasRenderer,
+  ToolboxComponent,
+  BrushComponent
 ]);
 
 @NgModule({

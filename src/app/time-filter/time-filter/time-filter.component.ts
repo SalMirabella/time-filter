@@ -1,4 +1,11 @@
-import { Component, Input, Output, EventEmitter, OnInit } from '@angular/core';
+import {
+  Component,
+  Input,
+  Output,
+  EventEmitter,
+  OnInit,
+  ChangeDetectorRef
+} from '@angular/core';
 import type { ECharts, EChartsCoreOption } from 'echarts/core';
 import dayjs from 'dayjs';
 
@@ -10,12 +17,12 @@ import dayjs from 'dayjs';
 })
 export class TimeFilterComponent implements OnInit {
   @Input() data: { date: string; value: number }[] = [];
-  @Input() startDate: Date = new Date(new Date().setMonth(new Date().getMonth() - 1));
-  @Input() endDate: Date = new Date();
   @Output() dateRangeChanged = new EventEmitter<{ start: Date; end: Date }>();
 
   chartOption: EChartsCoreOption = {};
   echartsInstance: ECharts | null = null;
+
+  constructor(private cdr: ChangeDetectorRef) {}
 
   ngOnInit(): void {
     if (!this.data || this.data.length === 0) {
@@ -26,22 +33,56 @@ export class TimeFilterComponent implements OnInit {
 
   onChartInit(ec: ECharts): void {
     this.echartsInstance = ec;
-  
-    ec.on('dataZoom', (event: any) => {
-      this.handleZoomEvent(event);
+
+    ec.on('brushSelected', (params: any) => {
+      const indices: number[] = params.batch[0]?.dataIndex ?? [];
+      if (indices.length >= 2) {
+        const start = new Date(this.data[indices[0]].date);
+        const end = new Date(this.data[indices[indices.length - 1]].date);
+
+        // Evidenzia la selezione
+        const option = this.chartOption as any;
+        if (option['series'] && option['series'][1]) {
+          option['series'][1]['data'] = this.data.map((item, i) =>
+            i >= indices[0] && i <= indices[indices.length - 1] ? item.value : null
+          );
+          this.echartsInstance?.setOption(option);
+        }
+
+        this.dateRangeChanged.emit({ start, end });
+        this.cdr.detectChanges();
+      }
     });
   }
+
   private initChart(): void {
     const dates = this.data.map(item => item.date);
     const values = this.data.map(item => item.value);
-
-    const startIndex = this.findClosestDateIndex(this.startDate);
-    const endIndex = this.findClosestDateIndex(this.endDate);
 
     this.chartOption = {
       tooltip: {
         trigger: 'axis'
       },
+      toolbox: {
+        feature: {
+          brush: { type: ['lineX', 'clear'] },
+          restore: {}
+        }
+      },
+      brush: {
+        toolbox: ['lineX', 'clear'],
+        xAxisIndex: 0,
+        brushMode: 'single'
+      },
+      dataZoom: [
+        {
+          type: 'inside',
+          xAxisIndex: 0,
+          zoomOnMouseWheel: true,
+          moveOnMouseWheel: true,
+          moveOnMouseMove: true
+        }
+      ],
       xAxis: {
         type: 'category',
         data: dates,
@@ -55,31 +96,23 @@ export class TimeFilterComponent implements OnInit {
       },
       series: [
         {
+          name: 'Tutti i dati',
           type: 'line',
           data: values,
           smooth: true,
-          lineStyle: { width: 2 },
-          areaStyle: { opacity: 0.2 }
-        }
-      ],
-      dataZoom: [
-        {
-          type: 'slider',
-          xAxisIndex: 0,
-          start: (startIndex / dates.length) * 100,
-          end: (endIndex / dates.length) * 100
+          lineStyle: { color: '#ccc', width: 2 },
+          areaStyle: { opacity: 0.1 }
         },
         {
-          type: 'inside',
-          xAxisIndex: 0
+          name: 'Selezione evidenziata',
+          type: 'line',
+          data: values.map(() => null),
+          smooth: true,
+          lineStyle: { color: '#2196f3', width: 3 },
+          areaStyle: { opacity: 0.3 }
         }
       ]
     };
-  }
-
-  private findClosestDateIndex(target: Date): number {
-    const targetStr = dayjs(target).format('YYYY-MM-DD');
-    return this.data.findIndex(item => item.date === targetStr) || 0;
   }
 
   private generateDemoData(): void {
@@ -88,7 +121,6 @@ export class TimeFilterComponent implements OnInit {
     start.setDate(start.getDate() - 90);
 
     this.data = [];
-
     for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
       this.data.push({
         date: dayjs(d).format('YYYY-MM-DD'),
@@ -96,23 +128,4 @@ export class TimeFilterComponent implements OnInit {
       });
     }
   }
-
-  private handleZoomEvent(event: any): void {
-    if (!this.data || this.data.length === 0) return;
-  
-    const startPercentage = event?.start ?? event?.batch?.[0]?.start;
-    const endPercentage = event?.end ?? event?.batch?.[0]?.end;
-  
-    if (startPercentage === undefined || endPercentage === undefined) return;
-  
-    const startIndex = Math.floor((startPercentage / 100) * this.data.length);
-    const endIndex = Math.floor((endPercentage / 100) * this.data.length);
-  
-    const startDate = new Date(this.data[startIndex]?.date);
-    const endDate = new Date(this.data[endIndex]?.date);
-  
-    this.dateRangeChanged.emit({ start: startDate, end: endDate });
-  }
-  
-  
 }
