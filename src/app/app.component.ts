@@ -8,28 +8,28 @@ import { TimeDataService } from './services/time-data.service';
   standalone: false
 })
 export class AppComponent implements OnInit {
-  timeData: { date: string; value: number }[] = [];
+  timeData: { index: number; date: string; value: number }[] = [];
+
   defaultStartDate = new Date(new Date().setMonth(new Date().getMonth() - 1));
   defaultEndDate = new Date();
-  selectedRange = {
-    start: this.defaultStartDate,
-    end: this.defaultEndDate
-  };
+
+  selectedRange: { start: Date; end: Date } | null = null;
 
   constructor(
     private timeDataService: TimeDataService,
-    private cdr: ChangeDetectorRef) {}
+
+    private cdr: ChangeDetectorRef
+  ) {}
 
   ngOnInit(): void {
-    this.loadData();
+    const rawData = this.timeDataService.generateDemoData();
+    this.timeData = rawData
   }
 
-  loadData(): void {
-    this.timeData = this.timeDataService.generateDemoData(); // restituisce array
-  }
-
-  onDateRangeChanged(range: { start: Date; end: Date }): void {
+  onDateRangeChanged(range: { start: Date; end: Date }) {
     this.selectedRange = range;
+    console.log('✅ Nuovo intervallo selezionato:', range);
+
     this.cdr.detectChanges();
   }
 }

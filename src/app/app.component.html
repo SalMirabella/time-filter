@@ -3,14 +3,12 @@
 
   <app-time-filter
     [data]="timeData"
-    [startDate]="defaultStartDate"
-    [endDate]="defaultEndDate"
     (dateRangeChanged)="onDateRangeChanged($event)">
   </app-time-filter>
 
   <div class="selected-range" *ngIf="selectedRange">
     <h4>TimeFrame:</h4>
-    <p>FROM: {{ selectedRange.start | date: 'dd/MM/yyyy' }}</p>
-    <p>TO: {{ selectedRange.end | date: 'dd/MM/yyyy' }}</p>
+    <p>FROM: {{ selectedRange?.start | date: 'dd/MM/yyyy' }}</p>
+    <p>TO: {{ selectedRange?.end | date: 'dd/MM/yyyy' }}</p>
   </div>
 </div>

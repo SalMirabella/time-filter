@@ -1,3 +1,4 @@
+
 import { Injectable } from '@angular/core';
 import dayjs from 'dayjs';
 
@@ -5,16 +6,17 @@ import dayjs from 'dayjs';
   providedIn: 'root'
 })
 export class TimeDataService {
-
-  generateDemoData(): { date: string; value: number }[] {
+  generateDemoData(): { index: number; date: string; value: number }[] {
     const end = new Date();
     const start = new Date();
     start.setDate(start.getDate() - 90);
 
-    const data: { date: string; value: number }[] = [];
+    const data: { index: number; date: string; value: number }[] = [];
 
+    let i = 0;
     for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
       data.push({
+        index: i++,
         date: dayjs(d).format('YYYY-MM-DD'),
         value: Math.floor(Math.random() * 1000) + 500
       });

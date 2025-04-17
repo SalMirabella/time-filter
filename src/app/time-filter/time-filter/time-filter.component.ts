@@ -6,7 +6,7 @@ import {
   OnInit,
   ChangeDetectorRef
 } from '@angular/core';
-import type { ECharts, EChartsCoreOption } from 'echarts/core';
+import { ECharts, EChartsCoreOption } from 'echarts/core';
 import dayjs from 'dayjs';
 
 @Component({
@@ -16,7 +16,7 @@ import dayjs from 'dayjs';
   standalone: false
 })
 export class TimeFilterComponent implements OnInit {
-  @Input() data: { date: string; value: number }[] = [];
+  @Input() data: { index: number; date: string; value: number }[] = [];
   @Output() dateRangeChanged = new EventEmitter<{ start: Date; end: Date }>();
 
   chartOption: EChartsCoreOption = {};
@@ -25,38 +25,69 @@ export class TimeFilterComponent implements OnInit {
   constructor(private cdr: ChangeDetectorRef) {}
 
   ngOnInit(): void {
-    if (!this.data || this.data.length === 0) {
-      this.generateDemoData();
-    }
     this.initChart();
   }
 
   onChartInit(ec: ECharts): void {
     this.echartsInstance = ec;
+    console.log('✅ Chart initialized');
 
     ec.on('brushSelected', (params: any) => {
-      const indices: number[] = params.batch[0]?.dataIndex ?? [];
-      if (indices.length >= 2) {
-        const start = new Date(this.data[indices[0]].date);
-        const end = new Date(this.data[indices[indices.length - 1]].date);
+      console.log('📌 brushSelected event triggered', params);
 
-        // Evidenzia la selezione
-        const option = this.chartOption as any;
-        if (option['series'] && option['series'][1]) {
-          option['series'][1]['data'] = this.data.map((item, i) =>
-            i >= indices[0] && i <= indices[indices.length - 1] ? item.value : null
-          );
-          this.echartsInstance?.setOption(option);
-        }
+      const area = params.batch[0]?.areas?.[0];
+      const coordRange = area?.coordRange;
 
-        this.dateRangeChanged.emit({ start, end });
-        this.cdr.detectChanges();
+      if (!Array.isArray(coordRange) || coordRange.length !== 2) {
+        return;
       }
+
+      const [rawStart, rawEnd] = coordRange;
+      const startCoord = Math.round(rawStart);
+      const endCoord = Math.round(rawEnd);
+
+
+      const sorted = [startCoord, endCoord].sort((a, b) => a - b);
+      const validStart = sorted[0];
+      const validEnd = sorted[1];
+
+      const startItem = this.data.find(item => item.index === validStart);
+      const endItem = this.data.find(item => item.index === validEnd);
+
+      if (!startItem || !endItem) {
+        return;
+      }
+
+      const start = new Date(startItem.date);
+      const end = new Date(endItem.date);
+
+      const highlightedData = this.data.map(item =>
+        item.index >= validStart && item.index <= validEnd ? item.value : null
+      );
+
+      const baseOption = this.chartOption as any;
+
+      const newOption: EChartsCoreOption = {
+        ...this.chartOption,
+        series: [
+          baseOption['series']?.[0],
+          {
+            ...baseOption['series']?.[1],
+            data: highlightedData
+          }
+        ]
+      };
+
+      ec.setOption(newOption, { notMerge: false });
+
+      this.dateRangeChanged.emit({ start, end });
+
+      this.cdr.detectChanges();
     });
   }
 
   private initChart(): void {
-    const dates = this.data.map(item => item.date);
+    const indices = this.data.map(item => item.index);
     const values = this.data.map(item => item.value);
 
     this.chartOption = {
@@ -74,6 +105,23 @@ export class TimeFilterComponent implements OnInit {
         xAxisIndex: 0,
         brushMode: 'single'
       },
+      xAxis: {
+        type: 'category',
+        data: indices,
+        axisLabel: {
+          formatter: (value: string | number) => {
+            const index = parseInt(value as string, 10);
+            if (isNaN(index) || index < 0 || index >= this.data.length) {
+              return '';
+            }
+            return dayjs(this.data[index].date).format('DD/MM/YYYY');
+          }
+        }
+      },
+      yAxis: {
+        type: 'value',
+        scale: true
+      },
       dataZoom: [
         {
           type: 'inside',
@@ -83,17 +131,6 @@ export class TimeFilterComponent implements OnInit {
           moveOnMouseMove: true
         }
       ],
-      xAxis: {
-        type: 'category',
-        data: dates,
-        axisLabel: {
-          formatter: (value: string) => dayjs(value).format('DD/MM/YYYY')
-        }
-      },
-      yAxis: {
-        type: 'value',
-        scale: true
-      },
       series: [
         {
           name: 'Tutti i dati',
@@ -113,19 +150,5 @@ export class TimeFilterComponent implements OnInit {
         }
       ]
     };
-  }
-
-  private generateDemoData(): void {
-    const end = new Date();
-    const start = new Date();
-    start.setDate(start.getDate() - 90);
-
-    this.data = [];
-    for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
-      this.data.push({
-        date: dayjs(d).format('YYYY-MM-DD'),
-        value: Math.floor(Math.random() * 1000) + 500
-      });
-    }
   }
 }
