@@ -1,0 +1,5553 @@
+{
+    "Result": [],
+    "Count": 107180014,
+    "Aggregations": {
+        "timePeriods": [
+            {
+                "Interval": "week",
+                "MovAvg": 0.0,
+                "Key": "2012-01-09",
+                "Count": 4,
+                "Label": "2012-01-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 2.0,
+                "Key": "2012-01-16",
+                "Count": 17,
+                "Label": "2012-01-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9.5,
+                "Key": "2012-01-23",
+                "Count": 111,
+                "Label": "2012-01-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 53.0,
+                "Key": "2012-01-30",
+                "Count": 443,
+                "Label": "2012-01-30",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 194.81818181818181,
+                "Key": "2012-02-06",
+                "Count": 267,
+                "Label": "2012-02-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 217.375,
+                "Key": "2012-02-13",
+                "Count": 484,
+                "Label": "2012-02-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 290.09090909090907,
+                "Key": "2012-02-20",
+                "Count": 414,
+                "Label": "2012-02-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 320.0,
+                "Key": "2012-02-27",
+                "Count": 158,
+                "Label": "2012-02-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 284.97297297297297,
+                "Key": "2012-03-05",
+                "Count": 457,
+                "Label": "2012-03-05",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 318.63043478260869,
+                "Key": "2012-03-12",
+                "Count": 435,
+                "Label": "2012-03-12",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 339.41071428571428,
+                "Key": "2012-03-19",
+                "Count": 356,
+                "Label": "2012-03-19",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 353.16071428571428,
+                "Key": "2012-03-26",
+                "Count": 427,
+                "Label": "2012-03-26",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 373.30357142857144,
+                "Key": "2012-04-02",
+                "Count": 404,
+                "Label": "2012-04-02",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 382.01785714285717,
+                "Key": "2012-04-09",
+                "Count": 291,
+                "Label": "2012-04-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 365.32142857142856,
+                "Key": "2012-04-16",
+                "Count": 353,
+                "Label": "2012-04-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 362.41071428571428,
+                "Key": "2012-04-23",
+                "Count": 345,
+                "Label": "2012-04-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 356.53571428571428,
+                "Key": "2012-04-30",
+                "Count": 384,
+                "Label": "2012-04-30",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 360.10714285714283,
+                "Key": "2012-05-07",
+                "Count": 377,
+                "Label": "2012-05-07",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 362.96428571428572,
+                "Key": "2012-05-14",
+                "Count": 321,
+                "Label": "2012-05-14",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 351.91071428571428,
+                "Key": "2012-05-21",
+                "Count": 303,
+                "Label": "2012-05-21",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 340.07142857142856,
+                "Key": "2012-05-28",
+                "Count": 464,
+                "Label": "2012-05-28",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 359.33928571428572,
+                "Key": "2012-06-04",
+                "Count": 451,
+                "Label": "2012-06-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 374.35714285714283,
+                "Key": "2012-06-11",
+                "Count": 569,
+                "Label": "2012-06-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 410.01785714285717,
+                "Key": "2012-06-18",
+                "Count": 504,
+                "Label": "2012-06-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 431.125,
+                "Key": "2012-06-25",
+                "Count": 325,
+                "Label": "2012-06-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 416.46428571428572,
+                "Key": "2012-07-02",
+                "Count": 568,
+                "Label": "2012-07-02",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 445.69642857142856,
+                "Key": "2012-07-09",
+                "Count": 745,
+                "Label": "2012-07-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 502.55357142857144,
+                "Key": "2012-07-16",
+                "Count": 438,
+                "Label": "2012-07-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 498.14285714285717,
+                "Key": "2012-07-23",
+                "Count": 708,
+                "Label": "2012-07-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 540.85714285714289,
+                "Key": "2012-07-30",
+                "Count": 990,
+                "Label": "2012-07-30",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 627.01785714285711,
+                "Key": "2012-08-06",
+                "Count": 491,
+                "Label": "2012-08-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 611.80357142857144,
+                "Key": "2012-08-13",
+                "Count": 444,
+                "Label": "2012-08-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 587.71428571428567,
+                "Key": "2012-08-20",
+                "Count": 964,
+                "Label": "2012-08-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 656.60714285714289,
+                "Key": "2012-08-27",
+                "Count": 695,
+                "Label": "2012-08-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 670.41071428571433,
+                "Key": "2012-09-03",
+                "Count": 501,
+                "Label": "2012-09-03",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 646.16071428571433,
+                "Key": "2012-09-10",
+                "Count": 493,
+                "Label": "2012-09-10",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 617.33928571428567,
+                "Key": "2012-09-17",
+                "Count": 437,
+                "Label": "2012-09-17",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 579.85714285714289,
+                "Key": "2012-09-24",
+                "Count": 418,
+                "Label": "2012-09-24",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 544.48214285714289,
+                "Key": "2012-10-01",
+                "Count": 475,
+                "Label": "2012-10-01",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 519.64285714285711,
+                "Key": "2012-10-08",
+                "Count": 718,
+                "Label": "2012-10-08",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 542.35714285714289,
+                "Key": "2012-10-15",
+                "Count": 711,
+                "Label": "2012-10-15",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 568.67857142857144,
+                "Key": "2012-10-22",
+                "Count": 655,
+                "Label": "2012-10-22",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 581.07142857142856,
+                "Key": "2012-10-29",
+                "Count": 560,
+                "Label": "2012-10-29",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 572.73214285714289,
+                "Key": "2012-11-05",
+                "Count": 552,
+                "Label": "2012-11-05",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 570.17857142857144,
+                "Key": "2012-11-12",
+                "Count": 621,
+                "Label": "2012-11-12",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 582.5,
+                "Key": "2012-11-19",
+                "Count": 551,
+                "Label": "2012-11-19",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 580.17857142857144,
+                "Key": "2012-11-26",
+                "Count": 868,
+                "Label": "2012-11-26",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 633.42857142857144,
+                "Key": "2012-12-03",
+                "Count": 1370,
+                "Label": "2012-12-03",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 768.625,
+                "Key": "2012-12-10",
+                "Count": 971,
+                "Label": "2012-12-10",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 815.57142857142856,
+                "Key": "2012-12-17",
+                "Count": 902,
+                "Label": "2012-12-17",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 841.33928571428567,
+                "Key": "2012-12-24",
+                "Count": 836,
+                "Label": "2012-12-24",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 852.03571428571433,
+                "Key": "2012-12-31",
+                "Count": 642,
+                "Label": "2012-12-31",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 825.85714285714289,
+                "Key": "2013-01-07",
+                "Count": 1323,
+                "Label": "2013-01-07",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 921.51785714285711,
+                "Key": "2013-01-14",
+                "Count": 1203,
+                "Label": "2013-01-14",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 982.125,
+                "Key": "2013-01-21",
+                "Count": 971,
+                "Label": "2013-01-21",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 989.67857142857144,
+                "Key": "2013-01-28",
+                "Count": 933,
+                "Label": "2013-01-28",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 984.19642857142856,
+                "Key": "2013-02-04",
+                "Count": 654,
+                "Label": "2013-02-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 922.07142857142856,
+                "Key": "2013-02-11",
+                "Count": 1331,
+                "Label": "2013-02-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 984.66071428571433,
+                "Key": "2013-02-18",
+                "Count": 1478,
+                "Label": "2013-02-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 1074.1964285714287,
+                "Key": "2013-02-25",
+                "Count": 949,
+                "Label": "2013-02-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 1060.2142857142858,
+                "Key": "2013-03-04",
+                "Count": 679,
+                "Label": "2013-03-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 997.17857142857144,
+                "Key": "2013-03-11",
+                "Count": 981,
+                "Label": "2013-03-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 990.875,
+                "Key": "2013-03-18",
+                "Count": 962,
+                "Label": "2013-03-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 975.125,
+                "Key": "2013-03-25",
+                "Count": 1016,
+                "Label": "2013-03-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 975.46428571428567,
+                "Key": "2013-04-01",
+                "Count": 4474,
+                "Label": "2013-04-01",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 1596.6428571428571,
+                "Key": "2013-04-08",
+                "Count": 6187,
+                "Label": "2013-04-08",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 2461.1607142857142,
+                "Key": "2013-04-15",
+                "Count": 8772,
+                "Label": "2013-04-15",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 3693.4642857142858,
+                "Key": "2013-04-22",
+                "Count": 7564,
+                "Label": "2013-04-22",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 4565.0892857142853,
+                "Key": "2013-04-29",
+                "Count": 3642,
+                "Label": "2013-04-29",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 4625.0535714285716,
+                "Key": "2013-05-06",
+                "Count": 5855,
+                "Label": "2013-05-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 5041.5535714285716,
+                "Key": "2013-05-13",
+                "Count": 2805,
+                "Label": "2013-05-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 4825.8035714285716,
+                "Key": "2013-05-20",
+                "Count": 1817,
+                "Label": "2013-05-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 4395.6607142857147,
+                "Key": "2013-05-27",
+                "Count": 4354,
+                "Label": "2013-05-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 4403.625,
+                "Key": "2013-06-03",
+                "Count": 3769,
+                "Label": "2013-06-03",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 4246.5535714285716,
+                "Key": "2013-06-10",
+                "Count": 2698,
+                "Label": "2013-06-10",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 3849.0714285714284,
+                "Key": "2013-06-17",
+                "Count": 2014,
+                "Label": "2013-06-17",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 3361.1607142857142,
+                "Key": "2013-06-24",
+                "Count": 1479,
+                "Label": "2013-06-24",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 2852.2321428571427,
+                "Key": "2013-07-01",
+                "Count": 1301,
+                "Label": "2013-07-01",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 2441.75,
+                "Key": "2013-07-08",
+                "Count": 3214,
+                "Label": "2013-07-08",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 2484.7142857142858,
+                "Key": "2013-07-15",
+                "Count": 5049,
+                "Label": "2013-07-15",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 2863.0,
+                "Key": "2013-07-22",
+                "Count": 4481,
+                "Label": "2013-07-22",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 3154.25,
+                "Key": "2013-07-29",
+                "Count": 4004,
+                "Label": "2013-07-29",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 3330.3928571428573,
+                "Key": "2013-08-05",
+                "Count": 6492,
+                "Label": "2013-08-05",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 3911.7678571428573,
+                "Key": "2013-08-12",
+                "Count": 5091,
+                "Label": "2013-08-12",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 4204.7857142857147,
+                "Key": "2013-08-19",
+                "Count": 6952,
+                "Label": "2013-08-19",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 4806.5178571428569,
+                "Key": "2013-08-26",
+                "Count": 8393,
+                "Label": "2013-08-26",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 5589.6071428571431,
+                "Key": "2013-09-02",
+                "Count": 7766,
+                "Label": "2013-09-02",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6146.8214285714284,
+                "Key": "2013-09-09",
+                "Count": 6942,
+                "Label": "2013-09-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6444.625,
+                "Key": "2013-09-16",
+                "Count": 7658,
+                "Label": "2013-09-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6769.5535714285716,
+                "Key": "2013-09-23",
+                "Count": 5995,
+                "Label": "2013-09-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6718.1607142857147,
+                "Key": "2013-09-30",
+                "Count": 5199,
+                "Label": "2013-09-30",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6507.7321428571431,
+                "Key": "2013-10-07",
+                "Count": 5981,
+                "Label": "2013-10-07",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6424.125,
+                "Key": "2013-10-14",
+                "Count": 5095,
+                "Label": "2013-10-14",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6147.0,
+                "Key": "2013-10-21",
+                "Count": 6115,
+                "Label": "2013-10-21",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6076.9642857142853,
+                "Key": "2013-10-28",
+                "Count": 6466,
+                "Label": "2013-10-28",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6051.3214285714284,
+                "Key": "2013-11-04",
+                "Count": 4529,
+                "Label": "2013-11-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 5688.4642857142853,
+                "Key": "2013-11-11",
+                "Count": 4317,
+                "Label": "2013-11-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 5356.75,
+                "Key": "2013-11-18",
+                "Count": 4875,
+                "Label": "2013-11-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 5186.2678571428569,
+                "Key": "2013-11-25",
+                "Count": 7048,
+                "Label": "2013-11-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 5440.7321428571431,
+                "Key": "2013-12-02",
+                "Count": 6100,
+                "Label": "2013-12-02",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 5536.8035714285716,
+                "Key": "2013-12-09",
+                "Count": 5841,
+                "Label": "2013-12-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 5584.75,
+                "Key": "2013-12-16",
+                "Count": 6507,
+                "Label": "2013-12-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 5740.1607142857147,
+                "Key": "2013-12-23",
+                "Count": 3966,
+                "Label": "2013-12-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 5432.4285714285716,
+                "Key": "2013-12-30",
+                "Count": 3554,
+                "Label": "2013-12-30",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 5071.2857142857147,
+                "Key": "2014-01-06",
+                "Count": 6696,
+                "Label": "2014-01-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 5316.9464285714284,
+                "Key": "2014-01-13",
+                "Count": 6952,
+                "Label": "2014-01-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 5604.2142857142853,
+                "Key": "2014-01-20",
+                "Count": 7731,
+                "Label": "2014-01-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 5987.3214285714284,
+                "Key": "2014-01-27",
+                "Count": 7405,
+                "Label": "2014-01-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6251.25,
+                "Key": "2014-02-03",
+                "Count": 6792,
+                "Label": "2014-02-03",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6360.5357142857147,
+                "Key": "2014-02-10",
+                "Count": 6469,
+                "Label": "2014-02-10",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6416.7142857142853,
+                "Key": "2014-02-17",
+                "Count": 5991,
+                "Label": "2014-02-17",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6380.9464285714284,
+                "Key": "2014-02-24",
+                "Count": 7669,
+                "Label": "2014-02-24",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6642.1428571428569,
+                "Key": "2014-03-03",
+                "Count": 7126,
+                "Label": "2014-03-03",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6785.625,
+                "Key": "2014-03-10",
+                "Count": 6153,
+                "Label": "2014-03-10",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6698.9285714285716,
+                "Key": "2014-03-17",
+                "Count": 6629,
+                "Label": "2014-03-17",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6650.8214285714284,
+                "Key": "2014-03-24",
+                "Count": 8818,
+                "Label": "2014-03-24",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6994.8035714285716,
+                "Key": "2014-03-31",
+                "Count": 6676,
+                "Label": "2014-03-31",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6922.9642857142853,
+                "Key": "2014-04-07",
+                "Count": 7680,
+                "Label": "2014-04-07",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7049.25,
+                "Key": "2014-04-14",
+                "Count": 7090,
+                "Label": "2014-04-14",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7065.2678571428569,
+                "Key": "2014-04-21",
+                "Count": 7712,
+                "Label": "2014-04-21",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7187.0357142857147,
+                "Key": "2014-04-28",
+                "Count": 6755,
+                "Label": "2014-04-28",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7115.7142857142853,
+                "Key": "2014-05-05",
+                "Count": 7427,
+                "Label": "2014-05-05",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7150.75,
+                "Key": "2014-05-12",
+                "Count": 7684,
+                "Label": "2014-05-12",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7236.0,
+                "Key": "2014-05-19",
+                "Count": 7172,
+                "Label": "2014-05-19",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7219.8571428571431,
+                "Key": "2014-05-26",
+                "Count": 7115,
+                "Label": "2014-05-26",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7175.3392857142853,
+                "Key": "2014-06-02",
+                "Count": 6303,
+                "Label": "2014-06-02",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6977.1428571428569,
+                "Key": "2014-06-09",
+                "Count": 6310,
+                "Label": "2014-06-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6825.1071428571431,
+                "Key": "2014-06-16",
+                "Count": 6987,
+                "Label": "2014-06-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6800.5,
+                "Key": "2014-06-23",
+                "Count": 7781,
+                "Label": "2014-06-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6930.0535714285716,
+                "Key": "2014-06-30",
+                "Count": 7537,
+                "Label": "2014-06-30",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7003.6964285714284,
+                "Key": "2014-07-07",
+                "Count": 7276,
+                "Label": "2014-07-07",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7033.8571428571431,
+                "Key": "2014-07-14",
+                "Count": 8529,
+                "Label": "2014-07-14",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7278.4642857142853,
+                "Key": "2014-07-21",
+                "Count": 8359,
+                "Label": "2014-07-21",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7473.0357142857147,
+                "Key": "2014-07-28",
+                "Count": 13920,
+                "Label": "2014-07-28",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8648.5892857142862,
+                "Key": "2014-08-04",
+                "Count": 20982,
+                "Label": "2014-08-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 10964.714285714286,
+                "Key": "2014-08-11",
+                "Count": 20469,
+                "Label": "2014-08-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 12941.607142857143,
+                "Key": "2014-08-18",
+                "Count": 19162,
+                "Label": "2014-08-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 14432.142857142857,
+                "Key": "2014-08-25",
+                "Count": 13347,
+                "Label": "2014-08-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 14654.785714285714,
+                "Key": "2014-09-01",
+                "Count": 13191,
+                "Label": "2014-09-01",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 14736.0,
+                "Key": "2014-09-08",
+                "Count": 12578,
+                "Label": "2014-09-08",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 14611.142857142857,
+                "Key": "2014-09-15",
+                "Count": 14915,
+                "Label": "2014-09-15",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 14813.589285714286,
+                "Key": "2014-09-22",
+                "Count": 15278,
+                "Label": "2014-09-22",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 14944.446428571429,
+                "Key": "2014-09-29",
+                "Count": 18253,
+                "Label": "2014-09-29",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 15486.035714285714,
+                "Key": "2014-10-06",
+                "Count": 33261,
+                "Label": "2014-10-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 18530.946428571428,
+                "Key": "2014-10-13",
+                "Count": 38152,
+                "Label": "2014-10-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 22103.875,
+                "Key": "2014-10-20",
+                "Count": 29614,
+                "Label": "2014-10-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 23845.553571428572,
+                "Key": "2014-10-27",
+                "Count": 19396,
+                "Label": "2014-10-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 23599.285714285714,
+                "Key": "2014-11-03",
+                "Count": 15089,
+                "Label": "2014-11-03",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 22579.732142857141,
+                "Key": "2014-11-10",
+                "Count": 17849,
+                "Label": "2014-11-10",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 22021.928571428572,
+                "Key": "2014-11-17",
+                "Count": 16945,
+                "Label": "2014-11-17",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 21219.517857142859,
+                "Key": "2014-11-24",
+                "Count": 14677,
+                "Label": "2014-11-24",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 19934.125,
+                "Key": "2014-12-01",
+                "Count": 14969,
+                "Label": "2014-12-01",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 18705.125,
+                "Key": "2014-12-08",
+                "Count": 10483,
+                "Label": "2014-12-08",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 16680.571428571428,
+                "Key": "2014-12-15",
+                "Count": 11702,
+                "Label": "2014-12-15",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 15012.446428571429,
+                "Key": "2014-12-22",
+                "Count": 8621,
+                "Label": "2014-12-22",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 13179.125,
+                "Key": "2014-12-29",
+                "Count": 10943,
+                "Label": "2014-12-29",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 12287.785714285714,
+                "Key": "2015-01-05",
+                "Count": 9956,
+                "Label": "2015-01-05",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 11553.607142857143,
+                "Key": "2015-01-12",
+                "Count": 13123,
+                "Label": "2015-01-12",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 11553.535714285714,
+                "Key": "2015-01-19",
+                "Count": 12655,
+                "Label": "2015-01-19",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 11505.0,
+                "Key": "2015-01-26",
+                "Count": 11765,
+                "Label": "2015-01-26",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 11390.285714285714,
+                "Key": "2015-02-02",
+                "Count": 12886,
+                "Label": "2015-02-02",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 11568.25,
+                "Key": "2015-02-09",
+                "Count": 11297,
+                "Label": "2015-02-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 11494.446428571429,
+                "Key": "2015-02-16",
+                "Count": 10801,
+                "Label": "2015-02-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 11397.642857142857,
+                "Key": "2015-02-23",
+                "Count": 12130,
+                "Label": "2015-02-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 11532.482142857143,
+                "Key": "2015-03-02",
+                "Count": 11297,
+                "Label": "2015-03-02",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 11510.928571428571,
+                "Key": "2015-03-09",
+                "Count": 10312,
+                "Label": "2015-03-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 11265.696428571429,
+                "Key": "2015-03-16",
+                "Count": 10325,
+                "Label": "2015-03-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 11034.053571428571,
+                "Key": "2015-03-23",
+                "Count": 10754,
+                "Label": "2015-03-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 10872.428571428571,
+                "Key": "2015-03-30",
+                "Count": 6293,
+                "Label": "2015-03-30",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9956.5,
+                "Key": "2015-04-06",
+                "Count": 6880,
+                "Label": "2015-04-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9259.0,
+                "Key": "2015-04-13",
+                "Count": 7302,
+                "Label": "2015-04-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8724.0892857142862,
+                "Key": "2015-04-20",
+                "Count": 8504,
+                "Label": "2015-04-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8503.5357142857138,
+                "Key": "2015-04-27",
+                "Count": 7477,
+                "Label": "2015-04-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8149.4642857142853,
+                "Key": "2015-05-04",
+                "Count": 9482,
+                "Label": "2015-05-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8212.7857142857138,
+                "Key": "2015-05-11",
+                "Count": 9179,
+                "Label": "2015-05-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8269.2857142857138,
+                "Key": "2015-05-18",
+                "Count": 8659,
+                "Label": "2015-05-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8270.75,
+                "Key": "2015-05-25",
+                "Count": 9584,
+                "Label": "2015-05-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8466.9107142857138,
+                "Key": "2015-06-01",
+                "Count": 11447,
+                "Label": "2015-06-01",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9008.9821428571431,
+                "Key": "2015-06-08",
+                "Count": 12828,
+                "Label": "2015-06-08",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9785.2857142857138,
+                "Key": "2015-06-15",
+                "Count": 10954,
+                "Label": "2015-06-15",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 10110.25,
+                "Key": "2015-06-22",
+                "Count": 8442,
+                "Label": "2015-06-22",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9913.8928571428569,
+                "Key": "2015-06-29",
+                "Count": 9157,
+                "Label": "2015-06-29",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9824.8571428571431,
+                "Key": "2015-07-06",
+                "Count": 8120,
+                "Label": "2015-07-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9538.9821428571431,
+                "Key": "2015-07-13",
+                "Count": 7314,
+                "Label": "2015-07-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9097.69642857143,
+                "Key": "2015-07-20",
+                "Count": 7238,
+                "Label": "2015-07-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8681.55357142857,
+                "Key": "2015-07-27",
+                "Count": 7449,
+                "Label": "2015-07-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8337.75,
+                "Key": "2015-08-03",
+                "Count": 6074,
+                "Label": "2015-08-03",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7770.0178571428569,
+                "Key": "2015-08-10",
+                "Count": 7736,
+                "Label": "2015-08-10",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7561.75,
+                "Key": "2015-08-17",
+                "Count": 7526,
+                "Label": "2015-08-17",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7382.25,
+                "Key": "2015-08-24",
+                "Count": 6379,
+                "Label": "2015-08-24",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7092.6071428571431,
+                "Key": "2015-08-31",
+                "Count": 6788,
+                "Label": "2015-08-31",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6957.6964285714284,
+                "Key": "2015-09-07",
+                "Count": 7036,
+                "Label": "2015-09-07",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6896.6071428571431,
+                "Key": "2015-09-14",
+                "Count": 7669,
+                "Label": "2015-09-14",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6986.4285714285716,
+                "Key": "2015-09-21",
+                "Count": 8107,
+                "Label": "2015-09-21",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7162.5178571428569,
+                "Key": "2015-09-28",
+                "Count": 7892,
+                "Label": "2015-09-28",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7286.0535714285716,
+                "Key": "2015-10-05",
+                "Count": 8778,
+                "Label": "2015-10-05",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7556.125,
+                "Key": "2015-10-12",
+                "Count": 7786,
+                "Label": "2015-10-12",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7625.3214285714284,
+                "Key": "2015-10-19",
+                "Count": 8051,
+                "Label": "2015-10-19",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7711.2678571428569,
+                "Key": "2015-10-26",
+                "Count": 7999,
+                "Label": "2015-10-26",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7782.3035714285716,
+                "Key": "2015-11-02",
+                "Count": 7576,
+                "Label": "2015-11-02",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7769.3571428571431,
+                "Key": "2015-11-09",
+                "Count": 7643,
+                "Label": "2015-11-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7747.0,
+                "Key": "2015-11-16",
+                "Count": 9583,
+                "Label": "2015-11-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8055.8035714285716,
+                "Key": "2015-11-23",
+                "Count": 9660,
+                "Label": "2015-11-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8332.875,
+                "Key": "2015-11-30",
+                "Count": 12934,
+                "Label": "2015-11-30",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9159.0357142857138,
+                "Key": "2015-12-07",
+                "Count": 8766,
+                "Label": "2015-12-07",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9154.7142857142862,
+                "Key": "2015-12-14",
+                "Count": 7651,
+                "Label": "2015-12-14",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8935.67857142857,
+                "Key": "2015-12-21",
+                "Count": 6224,
+                "Label": "2015-12-21",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8481.94642857143,
+                "Key": "2015-12-28",
+                "Count": 4737,
+                "Label": "2015-12-28",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7790.5714285714284,
+                "Key": "2016-01-04",
+                "Count": 8094,
+                "Label": "2016-01-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 7757.8392857142853,
+                "Key": "2016-01-11",
+                "Count": 12565,
+                "Label": "2016-01-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8521.80357142857,
+                "Key": "2016-01-18",
+                "Count": 14565,
+                "Label": "2016-01-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9553.82142857143,
+                "Key": "2016-01-25",
+                "Count": 21175,
+                "Label": "2016-01-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 11642.589285714286,
+                "Key": "2016-02-01",
+                "Count": 23924,
+                "Label": "2016-02-01",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 14015.25,
+                "Key": "2016-02-08",
+                "Count": 16705,
+                "Label": "2016-02-08",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 14844.089285714286,
+                "Key": "2016-02-15",
+                "Count": 15711,
+                "Label": "2016-02-15",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 15428.089285714286,
+                "Key": "2016-02-22",
+                "Count": 14049,
+                "Label": "2016-02-22",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 15591.285714285714,
+                "Key": "2016-02-29",
+                "Count": 11529,
+                "Label": "2016-02-29",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 15190.232142857143,
+                "Key": "2016-03-07",
+                "Count": 12900,
+                "Label": "2016-03-07",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 14939.267857142857,
+                "Key": "2016-03-14",
+                "Count": 12096,
+                "Label": "2016-03-14",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 14398.964285714286,
+                "Key": "2016-03-21",
+                "Count": 11082,
+                "Label": "2016-03-21",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 13606.125,
+                "Key": "2016-03-28",
+                "Count": 9368,
+                "Label": "2016-03-28",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 12533.696428571429,
+                "Key": "2016-04-04",
+                "Count": 9163,
+                "Label": "2016-04-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 11517.464285714286,
+                "Key": "2016-04-11",
+                "Count": 9355,
+                "Label": "2016-04-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 10750.017857142857,
+                "Key": "2016-04-18",
+                "Count": 9226,
+                "Label": "2016-04-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 10219.696428571429,
+                "Key": "2016-04-25",
+                "Count": 10313,
+                "Label": "2016-04-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 10017.035714285714,
+                "Key": "2016-05-02",
+                "Count": 8691,
+                "Label": "2016-05-02",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9621.125,
+                "Key": "2016-05-09",
+                "Count": 9226,
+                "Label": "2016-05-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9416.42857142857,
+                "Key": "2016-05-16",
+                "Count": 9835,
+                "Label": "2016-05-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9361.6071428571431,
+                "Key": "2016-05-23",
+                "Count": 9334,
+                "Label": "2016-05-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9272.05357142857,
+                "Key": "2016-05-30",
+                "Count": 9638,
+                "Label": "2016-05-30",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9286.1071428571431,
+                "Key": "2016-06-06",
+                "Count": 9173,
+                "Label": "2016-06-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9242.9107142857138,
+                "Key": "2016-06-13",
+                "Count": 8544,
+                "Label": "2016-06-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9090.875,
+                "Key": "2016-06-20",
+                "Count": 8927,
+                "Label": "2016-06-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9018.2857142857138,
+                "Key": "2016-06-27",
+                "Count": 8275,
+                "Label": "2016-06-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8836.9107142857138,
+                "Key": "2016-07-04",
+                "Count": 7813,
+                "Label": "2016-07-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8590.0178571428569,
+                "Key": "2016-07-11",
+                "Count": 9611,
+                "Label": "2016-07-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8708.8392857142862,
+                "Key": "2016-07-18",
+                "Count": 9841,
+                "Label": "2016-07-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8852.30357142857,
+                "Key": "2016-07-25",
+                "Count": 11536,
+                "Label": "2016-07-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9287.4642857142862,
+                "Key": "2016-08-01",
+                "Count": 13528,
+                "Label": "2016-08-01",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 10047.964285714286,
+                "Key": "2016-08-08",
+                "Count": 9873,
+                "Label": "2016-08-08",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 10080.892857142857,
+                "Key": "2016-08-15",
+                "Count": 9555,
+                "Label": "2016-08-15",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 10052.839285714286,
+                "Key": "2016-08-22",
+                "Count": 9442,
+                "Label": "2016-08-22",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9997.7857142857138,
+                "Key": "2016-08-29",
+                "Count": 9821,
+                "Label": "2016-08-29",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9994.375,
+                "Key": "2016-09-05",
+                "Count": 8872,
+                "Label": "2016-09-05",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9805.5357142857138,
+                "Key": "2016-09-12",
+                "Count": 8349,
+                "Label": "2016-09-12",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9512.6428571428569,
+                "Key": "2016-09-19",
+                "Count": 8458,
+                "Label": "2016-09-19",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9229.6428571428569,
+                "Key": "2016-09-26",
+                "Count": 8525,
+                "Label": "2016-09-26",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8979.19642857143,
+                "Key": "2016-10-03",
+                "Count": 8357,
+                "Label": "2016-10-03",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8722.25,
+                "Key": "2016-10-10",
+                "Count": 8518,
+                "Label": "2016-10-10",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8550.82142857143,
+                "Key": "2016-10-17",
+                "Count": 8434,
+                "Label": "2016-10-17",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8453.8571428571431,
+                "Key": "2016-10-24",
+                "Count": 8141,
+                "Label": "2016-10-24",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8330.2678571428569,
+                "Key": "2016-10-31",
+                "Count": 7384,
+                "Label": "2016-10-31",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8096.75,
+                "Key": "2016-11-07",
+                "Count": 8489,
+                "Label": "2016-11-07",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8097.3035714285716,
+                "Key": "2016-11-14",
+                "Count": 9284,
+                "Label": "2016-11-14",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 8263.6071428571431,
+                "Key": "2016-11-21",
+                "Count": 27402,
+                "Label": "2016-11-21",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 11657.910714285714,
+                "Key": "2016-11-28",
+                "Count": 29168,
+                "Label": "2016-11-28",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 15027.339285714286,
+                "Key": "2016-12-05",
+                "Count": 26679,
+                "Label": "2016-12-05",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 17582.482142857141,
+                "Key": "2016-12-12",
+                "Count": 26798,
+                "Label": "2016-12-12",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 19834.696428571428,
+                "Key": "2016-12-19",
+                "Count": 26182,
+                "Label": "2016-12-19",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 21647.607142857141,
+                "Key": "2016-12-26",
+                "Count": 23190,
+                "Label": "2016-12-26",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 22610.803571428572,
+                "Key": "2017-01-02",
+                "Count": 29058,
+                "Label": "2017-01-02",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 24358.357142857141,
+                "Key": "2017-01-09",
+                "Count": 30849,
+                "Label": "2017-01-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 26052.214285714286,
+                "Key": "2017-01-16",
+                "Count": 29176,
+                "Label": "2017-01-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 27028.303571428572,
+                "Key": "2017-01-23",
+                "Count": 31195,
+                "Label": "2017-01-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 27995.517857142859,
+                "Key": "2017-01-30",
+                "Count": 35518,
+                "Label": "2017-01-30",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 29343.428571428572,
+                "Key": "2017-02-06",
+                "Count": 37079,
+                "Label": "2017-02-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 30825.160714285714,
+                "Key": "2017-02-13",
+                "Count": 40190,
+                "Label": "2017-02-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 32721.160714285714,
+                "Key": "2017-02-20",
+                "Count": 40517,
+                "Label": "2017-02-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 34434.285714285717,
+                "Key": "2017-02-27",
+                "Count": 40261,
+                "Label": "2017-02-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 35856.714285714283,
+                "Key": "2017-03-06",
+                "Count": 14659,
+                "Label": "2017-03-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 32455.946428571428,
+                "Key": "2017-03-13",
+                "Count": 7481,
+                "Label": "2017-03-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 27925.732142857141,
+                "Key": "2017-03-20",
+                "Count": 39108,
+                "Label": "2017-03-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 29428.5,
+                "Key": "2017-03-27",
+                "Count": 69451,
+                "Label": "2017-03-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 36202.178571428572,
+                "Key": "2017-04-03",
+                "Count": 108017,
+                "Label": "2017-04-03",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 49143.446428571428,
+                "Key": "2017-04-10",
+                "Count": 90431,
+                "Label": "2017-04-10",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 57572.535714285717,
+                "Key": "2017-04-17",
+                "Count": 78499,
+                "Label": "2017-04-17",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 62890.321428571428,
+                "Key": "2017-04-24",
+                "Count": 78889,
+                "Label": "2017-04-24",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 67538.107142857145,
+                "Key": "2017-05-01",
+                "Count": 71096,
+                "Label": "2017-05-01",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 70103.232142857145,
+                "Key": "2017-05-08",
+                "Count": 69430,
+                "Label": "2017-05-08",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 71824.803571428565,
+                "Key": "2017-05-15",
+                "Count": 71870,
+                "Label": "2017-05-15",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 73461.21428571429,
+                "Key": "2017-05-22",
+                "Count": 86364,
+                "Label": "2017-05-22",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 76664.21428571429,
+                "Key": "2017-05-29",
+                "Count": 75674,
+                "Label": "2017-05-29",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 76549.66071428571,
+                "Key": "2017-06-05",
+                "Count": 73480,
+                "Label": "2017-06-05",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 75390.357142857145,
+                "Key": "2017-06-12",
+                "Count": 71380,
+                "Label": "2017-06-12",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 73784.107142857145,
+                "Key": "2017-06-19",
+                "Count": 75273,
+                "Label": "2017-06-19",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 73527.267857142855,
+                "Key": "2017-06-26",
+                "Count": 62903,
+                "Label": "2017-06-26",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 71332.178571428565,
+                "Key": "2017-07-03",
+                "Count": 56064,
+                "Label": "2017-07-03",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 68194.33928571429,
+                "Key": "2017-07-10",
+                "Count": 55081,
+                "Label": "2017-07-10",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 65288.553571428572,
+                "Key": "2017-07-17",
+                "Count": 54856,
+                "Label": "2017-07-17",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 62628.571428571428,
+                "Key": "2017-07-24",
+                "Count": 50316,
+                "Label": "2017-07-24",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 59418.125,
+                "Key": "2017-07-31",
+                "Count": 51330,
+                "Label": "2017-07-31",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 56773.642857142855,
+                "Key": "2017-08-07",
+                "Count": 38614,
+                "Label": "2017-08-07",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 52484.053571428572,
+                "Key": "2017-08-14",
+                "Count": 9480,
+                "Label": "2017-08-14",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 43653.75,
+                "Key": "2017-08-21",
+                "Count": 7629,
+                "Label": "2017-08-21",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 35635.767857142855,
+                "Key": "2017-08-28",
+                "Count": 5417,
+                "Label": "2017-08-28",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 28361.196428571428,
+                "Key": "2017-09-04",
+                "Count": 9279,
+                "Label": "2017-09-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 23023.696428571428,
+                "Key": "2017-09-11",
+                "Count": 7890,
+                "Label": "2017-09-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 18395.732142857141,
+                "Key": "2017-09-18",
+                "Count": 8410,
+                "Label": "2017-09-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 14720.875,
+                "Key": "2017-09-25",
+                "Count": 8032,
+                "Label": "2017-09-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 11811.928571428571,
+                "Key": "2017-10-02",
+                "Count": 5710,
+                "Label": "2017-10-02",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 9324.4821428571431,
+                "Key": "2017-10-09",
+                "Count": 0,
+                "Label": "2017-10-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 6613.9285714285716,
+                "Key": "2017-10-16",
+                "Count": 0,
+                "Label": "2017-10-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 4819.9821428571431,
+                "Key": "2017-10-23",
+                "Count": 0,
+                "Label": "2017-10-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 3715.5714285714284,
+                "Key": "2017-10-30",
+                "Count": 16961,
+                "Label": "2017-10-30",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 5809.1964285714284,
+                "Key": "2017-11-06",
+                "Count": 60851,
+                "Label": "2017-11-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 15573.678571428571,
+                "Key": "2017-11-13",
+                "Count": 103847,
+                "Label": "2017-11-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 32026.125,
+                "Key": "2017-11-20",
+                "Count": 94521,
+                "Label": "2017-11-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 45124.5,
+                "Key": "2017-11-27",
+                "Count": 99186,
+                "Label": "2017-11-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 57508.928571428572,
+                "Key": "2017-12-04",
+                "Count": 90268,
+                "Label": "2017-12-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 66679.857142857145,
+                "Key": "2017-12-11",
+                "Count": 101536,
+                "Label": "2017-12-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 76394.428571428565,
+                "Key": "2017-12-18",
+                "Count": 92568,
+                "Label": "2017-12-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 82796.392857142855,
+                "Key": "2017-12-25",
+                "Count": 79586,
+                "Label": "2017-12-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 85227.142857142855,
+                "Key": "2018-01-01",
+                "Count": 87923,
+                "Label": "2018-01-01",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 87725.46428571429,
+                "Key": "2018-01-08",
+                "Count": 97754,
+                "Label": "2018-01-08",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 90409.267857142855,
+                "Key": "2018-01-15",
+                "Count": 97153,
+                "Label": "2018-01-15",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 91543.017857142855,
+                "Key": "2018-01-22",
+                "Count": 109026,
+                "Label": "2018-01-22",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 94148.696428571435,
+                "Key": "2018-01-29",
+                "Count": 106371,
+                "Label": "2018-01-29",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 96187.78571428571,
+                "Key": "2018-02-05",
+                "Count": 109087,
+                "Label": "2018-02-05",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 98500.267857142855,
+                "Key": "2018-02-12",
+                "Count": 56147,
+                "Label": "2018-02-12",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 91182.375,
+                "Key": "2018-02-19",
+                "Count": 36844,
+                "Label": "2018-02-19",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 81026.821428571435,
+                "Key": "2018-02-26",
+                "Count": 103192,
+                "Label": "2018-02-26",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 83874.33928571429,
+                "Key": "2018-03-05",
+                "Count": 84663,
+                "Label": "2018-03-05",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 83223.392857142855,
+                "Key": "2018-03-12",
+                "Count": 116875,
+                "Label": "2018-03-12",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 88233.928571428565,
+                "Key": "2018-03-19",
+                "Count": 107595,
+                "Label": "2018-03-19",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 91070.321428571435,
+                "Key": "2018-03-26",
+                "Count": 97515,
+                "Label": "2018-03-26",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 91930.982142857145,
+                "Key": "2018-04-02",
+                "Count": 96350,
+                "Label": "2018-04-02",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 92577.142857142855,
+                "Key": "2018-04-09",
+                "Count": 129323,
+                "Label": "2018-04-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 99337.696428571435,
+                "Key": "2018-04-16",
+                "Count": 115725,
+                "Label": "2018-04-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 103260.17857142857,
+                "Key": "2018-04-23",
+                "Count": 93239,
+                "Label": "2018-04-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 103048.76785714286,
+                "Key": "2018-04-30",
+                "Count": 90880,
+                "Label": "2018-04-30",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 101753.75,
+                "Key": "2018-05-07",
+                "Count": 89886,
+                "Label": "2018-05-07",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 99316.303571428565,
+                "Key": "2018-05-14",
+                "Count": 100520,
+                "Label": "2018-05-14",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 99015.392857142855,
+                "Key": "2018-05-21",
+                "Count": 89040,
+                "Label": "2018-05-21",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 96381.321428571435,
+                "Key": "2018-05-28",
+                "Count": 81371,
+                "Label": "2018-05-28",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 92874.83928571429,
+                "Key": "2018-06-04",
+                "Count": 102621,
+                "Label": "2018-06-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 93631.28571428571,
+                "Key": "2018-06-11",
+                "Count": 109211,
+                "Label": "2018-06-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 95473.33928571429,
+                "Key": "2018-06-18",
+                "Count": 111937,
+                "Label": "2018-06-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 97572.517857142855,
+                "Key": "2018-06-25",
+                "Count": 108117,
+                "Label": "2018-06-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 99300.017857142855,
+                "Key": "2018-07-02",
+                "Count": 103403,
+                "Label": "2018-07-02",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 100321.58928571429,
+                "Key": "2018-07-09",
+                "Count": 112174,
+                "Label": "2018-07-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 102727.91071428571,
+                "Key": "2018-07-16",
+                "Count": 96038,
+                "Label": "2018-07-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 101872.55357142857,
+                "Key": "2018-07-23",
+                "Count": 93076,
+                "Label": "2018-07-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 100378.41071428571,
+                "Key": "2018-07-30",
+                "Count": 96197,
+                "Label": "2018-07-30",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 99574.517857142855,
+                "Key": "2018-08-06",
+                "Count": 100908,
+                "Label": "2018-08-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 99484.071428571435,
+                "Key": "2018-08-13",
+                "Count": 110385,
+                "Label": "2018-08-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 100737.07142857143,
+                "Key": "2018-08-20",
+                "Count": 96178,
+                "Label": "2018-08-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 99314.46428571429,
+                "Key": "2018-08-27",
+                "Count": 94655,
+                "Label": "2018-08-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 97852.625,
+                "Key": "2018-09-03",
+                "Count": 109756,
+                "Label": "2018-09-03",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 99396.0,
+                "Key": "2018-09-10",
+                "Count": 123145,
+                "Label": "2018-09-10",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 103301.0,
+                "Key": "2018-09-17",
+                "Count": 111516,
+                "Label": "2018-09-17",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 104776.85714285714,
+                "Key": "2018-09-24",
+                "Count": 111223,
+                "Label": "2018-09-24",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 106212.14285714286,
+                "Key": "2018-10-01",
+                "Count": 108700,
+                "Label": "2018-10-01",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 106925.73214285714,
+                "Key": "2018-10-08",
+                "Count": 117226,
+                "Label": "2018-10-08",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 108882.82142857143,
+                "Key": "2018-10-15",
+                "Count": 107354,
+                "Label": "2018-10-15",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 108701.53571428571,
+                "Key": "2018-10-22",
+                "Count": 112860,
+                "Label": "2018-10-22",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 109388.35714285714,
+                "Key": "2018-10-29",
+                "Count": 102843,
+                "Label": "2018-10-29",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 108242.23214285714,
+                "Key": "2018-11-05",
+                "Count": 100773,
+                "Label": "2018-11-05",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 106607.44642857143,
+                "Key": "2018-11-12",
+                "Count": 110284,
+                "Label": "2018-11-12",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 106561.80357142857,
+                "Key": "2018-11-19",
+                "Count": 106422,
+                "Label": "2018-11-19",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 105817.08928571429,
+                "Key": "2018-11-26",
+                "Count": 115285,
+                "Label": "2018-11-26",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 106953.67857142857,
+                "Key": "2018-12-03",
+                "Count": 95093,
+                "Label": "2018-12-03",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 104417.25,
+                "Key": "2018-12-10",
+                "Count": 98505,
+                "Label": "2018-12-10",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 102778.14285714286,
+                "Key": "2018-12-17",
+                "Count": 100227,
+                "Label": "2018-12-17",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 101628.58928571429,
+                "Key": "2018-12-24",
+                "Count": 84330,
+                "Label": "2018-12-24",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 97943.83928571429,
+                "Key": "2018-12-31",
+                "Count": 79804,
+                "Label": "2018-12-31",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 93862.017857142855,
+                "Key": "2019-01-07",
+                "Count": 96291,
+                "Label": "2019-01-07",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 93314.58928571429,
+                "Key": "2019-01-14",
+                "Count": 90581,
+                "Label": "2019-01-14",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 91864.517857142855,
+                "Key": "2019-01-21",
+                "Count": 95381,
+                "Label": "2019-01-21",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 91453.58928571429,
+                "Key": "2019-01-28",
+                "Count": 89296,
+                "Label": "2019-01-28",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 90222.178571428565,
+                "Key": "2019-02-04",
+                "Count": 89367,
+                "Label": "2019-02-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 89309.267857142855,
+                "Key": "2019-02-11",
+                "Count": 89001,
+                "Label": "2019-02-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 88793.821428571435,
+                "Key": "2019-02-18",
+                "Count": 78303,
+                "Label": "2019-02-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 86476.803571428565,
+                "Key": "2019-02-25",
+                "Count": 105612,
+                "Label": "2019-02-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 89397.142857142855,
+                "Key": "2019-03-04",
+                "Count": 91222,
+                "Label": "2019-03-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 89651.678571428565,
+                "Key": "2019-03-11",
+                "Count": 70292,
+                "Label": "2019-03-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 86045.642857142855,
+                "Key": "2019-03-18",
+                "Count": 131102,
+                "Label": "2019-03-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 93468.392857142855,
+                "Key": "2019-03-25",
+                "Count": 89665,
+                "Label": "2019-03-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 92870.053571428565,
+                "Key": "2019-04-01",
+                "Count": 88654,
+                "Label": "2019-04-01",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 92107.53571428571,
+                "Key": "2019-04-08",
+                "Count": 84946,
+                "Label": "2019-04-08",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 90803.0,
+                "Key": "2019-04-15",
+                "Count": 93444,
+                "Label": "2019-04-15",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 91093.642857142855,
+                "Key": "2019-04-22",
+                "Count": 94450,
+                "Label": "2019-04-22",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 91491.125,
+                "Key": "2019-04-29",
+                "Count": 86692,
+                "Label": "2019-04-29",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 90405.946428571435,
+                "Key": "2019-05-06",
+                "Count": 91032,
+                "Label": "2019-05-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 89945.96428571429,
+                "Key": "2019-05-13",
+                "Count": 89939,
+                "Label": "2019-05-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 89551.16071428571,
+                "Key": "2019-05-20",
+                "Count": 84773,
+                "Label": "2019-05-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 88256.767857142855,
+                "Key": "2019-05-27",
+                "Count": 66439,
+                "Label": "2019-05-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 83429.857142857145,
+                "Key": "2019-06-03",
+                "Count": 99361,
+                "Label": "2019-06-03",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 85636.571428571435,
+                "Key": "2019-06-10",
+                "Count": 100427,
+                "Label": "2019-06-10",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 87860.5,
+                "Key": "2019-06-17",
+                "Count": 102193,
+                "Label": "2019-06-17",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 90189.553571428565,
+                "Key": "2019-06-24",
+                "Count": 96448,
+                "Label": "2019-06-24",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 91184.732142857145,
+                "Key": "2019-07-01",
+                "Count": 94277,
+                "Label": "2019-07-01",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 91738.58928571429,
+                "Key": "2019-07-08",
+                "Count": 88710,
+                "Label": "2019-07-08",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 91301.428571428565,
+                "Key": "2019-07-15",
+                "Count": 98108,
+                "Label": "2019-07-15",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 92506.446428571435,
+                "Key": "2019-07-22",
+                "Count": 82189,
+                "Label": "2019-07-22",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 90742.428571428565,
+                "Key": "2019-07-29",
+                "Count": 117908,
+                "Label": "2019-07-29",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 95495.196428571435,
+                "Key": "2019-08-05",
+                "Count": 105503,
+                "Label": "2019-08-05",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 97441.08928571429,
+                "Key": "2019-08-12",
+                "Count": 93370,
+                "Label": "2019-08-12",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 96522.803571428565,
+                "Key": "2019-08-19",
+                "Count": 95356,
+                "Label": "2019-08-19",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 96066.142857142855,
+                "Key": "2019-08-26",
+                "Count": 103487,
+                "Label": "2019-08-26",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 97152.0,
+                "Key": "2019-09-02",
+                "Count": 102896,
+                "Label": "2019-09-02",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 98109.21428571429,
+                "Key": "2019-09-09",
+                "Count": 79129,
+                "Label": "2019-09-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 94707.178571428565,
+                "Key": "2019-09-16",
+                "Count": 102098,
+                "Label": "2019-09-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 95677.25,
+                "Key": "2019-09-23",
+                "Count": 110229,
+                "Label": "2019-09-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 97860.21428571429,
+                "Key": "2019-09-30",
+                "Count": 104859,
+                "Label": "2019-09-30",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 98867.803571428565,
+                "Key": "2019-10-07",
+                "Count": 126388,
+                "Label": "2019-10-07",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 103315.03571428571,
+                "Key": "2019-10-14",
+                "Count": 117255,
+                "Label": "2019-10-14",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 105979.94642857143,
+                "Key": "2019-10-21",
+                "Count": 117826,
+                "Label": "2019-10-21",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 108536.96428571429,
+                "Key": "2019-10-28",
+                "Count": 110044,
+                "Label": "2019-10-28",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 109267.625,
+                "Key": "2019-11-04",
+                "Count": 108391,
+                "Label": "2019-11-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 109440.82142857143,
+                "Key": "2019-11-11",
+                "Count": 87900,
+                "Label": "2019-11-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 105867.33928571429,
+                "Key": "2019-11-18",
+                "Count": 102853,
+                "Label": "2019-11-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 105231.82142857143,
+                "Key": "2019-11-25",
+                "Count": 100039,
+                "Label": "2019-11-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 103670.16071428571,
+                "Key": "2019-12-02",
+                "Count": 96187,
+                "Label": "2019-12-02",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 101457.41071428571,
+                "Key": "2019-12-09",
+                "Count": 97709,
+                "Label": "2019-12-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 99767.196428571435,
+                "Key": "2019-12-16",
+                "Count": 89101,
+                "Label": "2019-12-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 96667.517857142855,
+                "Key": "2019-12-23",
+                "Count": 74731,
+                "Label": "2019-12-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 91667.607142857145,
+                "Key": "2019-12-30",
+                "Count": 82255,
+                "Label": "2019-12-30",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 88770.625,
+                "Key": "2020-01-06",
+                "Count": 61420,
+                "Label": "2020-01-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 82788.303571428565,
+                "Key": "2020-01-13",
+                "Count": 75171,
+                "Label": "2020-01-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 80129.803571428565,
+                "Key": "2020-01-20",
+                "Count": 150826,
+                "Label": "2020-01-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 91574.33928571429,
+                "Key": "2020-01-27",
+                "Count": 246787,
+                "Label": "2020-01-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 119031.08928571429,
+                "Key": "2020-02-03",
+                "Count": 225679,
+                "Label": "2020-02-03",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 140148.30357142858,
+                "Key": "2020-02-10",
+                "Count": 197893,
+                "Label": "2020-02-10",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 154060.16071428571,
+                "Key": "2020-02-17",
+                "Count": 197343,
+                "Label": "2020-02-17",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 166057.625,
+                "Key": "2020-02-24",
+                "Count": 324580,
+                "Label": "2020-02-24",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 198996.80357142858,
+                "Key": "2020-03-02",
+                "Count": 368416,
+                "Label": "2020-03-02",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 235558.85714285713,
+                "Key": "2020-03-09",
+                "Count": 539619,
+                "Label": "2020-03-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 297448.5,
+                "Key": "2020-03-16",
+                "Count": 672718,
+                "Label": "2020-03-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 374938.60714285716,
+                "Key": "2020-03-23",
+                "Count": 647576,
+                "Label": "2020-03-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 437023.03571428574,
+                "Key": "2020-03-30",
+                "Count": 588840,
+                "Label": "2020-03-30",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 478397.375,
+                "Key": "2020-04-06",
+                "Count": 817722,
+                "Label": "2020-04-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 552821.82142857148,
+                "Key": "2020-04-13",
+                "Count": 1012040,
+                "Label": "2020-04-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 651750.64285714284,
+                "Key": "2020-04-20",
+                "Count": 991714,
+                "Label": "2020-04-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 733007.66071428568,
+                "Key": "2020-04-27",
+                "Count": 916780,
+                "Label": "2020-04-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 786708.23214285716,
+                "Key": "2020-05-04",
+                "Count": 875783,
+                "Label": "2020-05-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 820240.82142857148,
+                "Key": "2020-05-11",
+                "Count": 853354,
+                "Label": "2020-05-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 839925.32142857148,
+                "Key": "2020-05-18",
+                "Count": 797533,
+                "Label": "2020-05-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 840982.17857142852,
+                "Key": "2020-05-25",
+                "Count": 735082,
+                "Label": "2020-05-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 826281.46428571432,
+                "Key": "2020-06-01",
+                "Count": 704662,
+                "Label": "2020-06-01",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 805034.96428571432,
+                "Key": "2020-06-08",
+                "Count": 576132,
+                "Label": "2020-06-08",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 759817.28571428568,
+                "Key": "2020-06-15",
+                "Count": 605241,
+                "Label": "2020-06-15",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 720024.57142857148,
+                "Key": "2020-06-22",
+                "Count": 591508,
+                "Label": "2020-06-22",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 681573.83928571432,
+                "Key": "2020-06-29",
+                "Count": 572130,
+                "Label": "2020-06-29",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 647172.25,
+                "Key": "2020-07-06",
+                "Count": 673868,
+                "Label": "2020-07-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 638430.73214285716,
+                "Key": "2020-07-13",
+                "Count": 667659,
+                "Label": "2020-07-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 632918.17857142852,
+                "Key": "2020-07-20",
+                "Count": 665622,
+                "Label": "2020-07-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 630758.375,
+                "Key": "2020-07-27",
+                "Count": 665228,
+                "Label": "2020-07-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 631880.57142857148,
+                "Key": "2020-08-03",
+                "Count": 629207,
+                "Label": "2020-08-03",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 628933.03571428568,
+                "Key": "2020-08-10",
+                "Count": 601880,
+                "Label": "2020-08-10",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 622996.30357142852,
+                "Key": "2020-08-17",
+                "Count": 596150,
+                "Label": "2020-08-17",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 617871.75,
+                "Key": "2020-08-24",
+                "Count": 566705,
+                "Label": "2020-08-24",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 607131.69642857148,
+                "Key": "2020-08-31",
+                "Count": 524010,
+                "Label": "2020-08-31",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 589455.67857142852,
+                "Key": "2020-09-07",
+                "Count": 500207,
+                "Label": "2020-09-07",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 568734.44642857148,
+                "Key": "2020-09-14",
+                "Count": 514485,
+                "Label": "2020-09-14",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 551847.19642857148,
+                "Key": "2020-09-21",
+                "Count": 536316,
+                "Label": "2020-09-21",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 541704.46428571432,
+                "Key": "2020-09-28",
+                "Count": 553061,
+                "Label": "2020-09-28",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 536897.32142857148,
+                "Key": "2020-10-05",
+                "Count": 558091,
+                "Label": "2020-10-05",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 534998.41071428568,
+                "Key": "2020-10-12",
+                "Count": 480543,
+                "Label": "2020-10-12",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 521164.80357142858,
+                "Key": "2020-10-19",
+                "Count": 579279,
+                "Label": "2020-10-19",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 527617.33928571432,
+                "Key": "2020-10-26",
+                "Count": 595126,
+                "Label": "2020-10-26",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 537303.28571428568,
+                "Key": "2020-11-02",
+                "Count": 554654,
+                "Label": "2020-11-02",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 539780.375,
+                "Key": "2020-11-09",
+                "Count": 565515,
+                "Label": "2020-11-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 544412.125,
+                "Key": "2020-11-16",
+                "Count": 614825,
+                "Label": "2020-11-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 557108.07142857148,
+                "Key": "2020-11-23",
+                "Count": 549735,
+                "Label": "2020-11-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 556134.05357142852,
+                "Key": "2020-11-30",
+                "Count": 558973,
+                "Label": "2020-11-30",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 556180.21428571432,
+                "Key": "2020-12-07",
+                "Count": 527864,
+                "Label": "2020-12-07",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 550266.60714285716,
+                "Key": "2020-12-14",
+                "Count": 558448,
+                "Label": "2020-12-14",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 550264.375,
+                "Key": "2020-12-21",
+                "Count": 520356,
+                "Label": "2020-12-21",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 543453.625,
+                "Key": "2020-12-28",
+                "Count": 502371,
+                "Label": "2020-12-28",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 532720.32142857148,
+                "Key": "2021-01-04",
+                "Count": 537357,
+                "Label": "2021-01-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 529607.875,
+                "Key": "2021-01-11",
+                "Count": 572742,
+                "Label": "2021-01-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 533845.76785714284,
+                "Key": "2021-01-18",
+                "Count": 566805,
+                "Label": "2021-01-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 536700.48214285716,
+                "Key": "2021-01-25",
+                "Count": 571603,
+                "Label": "2021-01-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 540388.94642857148,
+                "Key": "2021-02-01",
+                "Count": 532234,
+                "Label": "2021-02-01",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 537819.05357142852,
+                "Key": "2021-02-08",
+                "Count": 508542,
+                "Label": "2021-02-08",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 531330.96428571432,
+                "Key": "2021-02-15",
+                "Count": 496496,
+                "Label": "2021-02-15",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 523592.35714285716,
+                "Key": "2021-02-22",
+                "Count": 510360,
+                "Label": "2021-02-22",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 518889.60714285716,
+                "Key": "2021-03-01",
+                "Count": 527432,
+                "Label": "2021-03-01",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 518094.14285714284,
+                "Key": "2021-03-08",
+                "Count": 511593,
+                "Label": "2021-03-08",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 514343.92857142858,
+                "Key": "2021-03-15",
+                "Count": 520875,
+                "Label": "2021-03-15",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 512086.53571428574,
+                "Key": "2021-03-22",
+                "Count": 528794,
+                "Label": "2021-03-22",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 511537.57142857142,
+                "Key": "2021-03-29",
+                "Count": 502007,
+                "Label": "2021-03-29",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 506990.0,
+                "Key": "2021-04-05",
+                "Count": 508562,
+                "Label": "2021-04-05",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 504770.07142857142,
+                "Key": "2021-04-12",
+                "Count": 504495,
+                "Label": "2021-04-12",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 502949.625,
+                "Key": "2021-04-19",
+                "Count": 498646,
+                "Label": "2021-04-19",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 500580.05357142858,
+                "Key": "2021-04-26",
+                "Count": 508556,
+                "Label": "2021-04-26",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 500156.83928571426,
+                "Key": "2021-05-03",
+                "Count": 479103,
+                "Label": "2021-05-03",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 494258.80357142858,
+                "Key": "2021-05-10",
+                "Count": 470517,
+                "Label": "2021-05-10",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 487385.71428571426,
+                "Key": "2021-05-17",
+                "Count": 474873,
+                "Label": "2021-05-17",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 482306.82142857142,
+                "Key": "2021-05-24",
+                "Count": 467559,
+                "Label": "2021-05-24",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 476577.57142857142,
+                "Key": "2021-05-31",
+                "Count": 555403,
+                "Label": "2021-05-31",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 487486.82142857142,
+                "Key": "2021-06-07",
+                "Count": 498391,
+                "Label": "2021-06-07",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 487740.19642857142,
+                "Key": "2021-06-14",
+                "Count": 434537,
+                "Label": "2021-06-14",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 476655.64285714284,
+                "Key": "2021-06-21",
+                "Count": 432602,
+                "Label": "2021-06-21",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 466547.42857142858,
+                "Key": "2021-06-28",
+                "Count": 430847,
+                "Label": "2021-06-28",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 457409.625,
+                "Key": "2021-07-05",
+                "Count": 426016,
+                "Label": "2021-07-05",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 448619.83928571426,
+                "Key": "2021-07-12",
+                "Count": 430417,
+                "Label": "2021-07-12",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 442089.875,
+                "Key": "2021-07-19",
+                "Count": 430137,
+                "Label": "2021-07-19",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 436379.30357142858,
+                "Key": "2021-07-26",
+                "Count": 428222,
+                "Label": "2021-07-26",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 431047.83928571426,
+                "Key": "2021-08-02",
+                "Count": 416669,
+                "Label": "2021-08-02",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 424486.39285714284,
+                "Key": "2021-08-09",
+                "Count": 415253,
+                "Label": "2021-08-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 418580.83928571426,
+                "Key": "2021-08-16",
+                "Count": 326031,
+                "Label": "2021-08-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 399245.46428571426,
+                "Key": "2021-08-23",
+                "Count": 314511,
+                "Label": "2021-08-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 380930.80357142858,
+                "Key": "2021-08-30",
+                "Count": 402979,
+                "Label": "2021-08-30",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 380557.32142857142,
+                "Key": "2021-09-06",
+                "Count": 379835,
+                "Label": "2021-09-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 376579.96428571426,
+                "Key": "2021-09-13",
+                "Count": 376898,
+                "Label": "2021-09-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 372989.07142857142,
+                "Key": "2021-09-20",
+                "Count": 364495,
+                "Label": "2021-09-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 368060.46428571426,
+                "Key": "2021-09-27",
+                "Count": 360692,
+                "Label": "2021-09-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 363629.92857142858,
+                "Key": "2021-10-04",
+                "Count": 339287,
+                "Label": "2021-10-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 356617.16071428574,
+                "Key": "2021-10-11",
+                "Count": 338189,
+                "Label": "2021-10-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 350996.44642857142,
+                "Key": "2021-10-18",
+                "Count": 357727,
+                "Label": "2021-10-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 350266.08928571426,
+                "Key": "2021-10-25",
+                "Count": 355313,
+                "Label": "2021-10-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 350131.91071428574,
+                "Key": "2021-11-01",
+                "Count": 338205,
+                "Label": "2021-11-01",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 346419.83928571426,
+                "Key": "2021-11-08",
+                "Count": 346322,
+                "Label": "2021-11-08",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 343734.125,
+                "Key": "2021-11-15",
+                "Count": 352283,
+                "Label": "2021-11-15",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 343124.60714285716,
+                "Key": "2021-11-22",
+                "Count": 375686,
+                "Label": "2021-11-22",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 347186.19642857142,
+                "Key": "2021-11-29",
+                "Count": 402932,
+                "Label": "2021-11-29",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 356134.78571428574,
+                "Key": "2021-12-06",
+                "Count": 362423,
+                "Label": "2021-12-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 357163.25,
+                "Key": "2021-12-13",
+                "Count": 382604,
+                "Label": "2021-12-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 361764.55357142858,
+                "Key": "2021-12-20",
+                "Count": 362997,
+                "Label": "2021-12-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 362091.08928571426,
+                "Key": "2021-12-27",
+                "Count": 361032,
+                "Label": "2021-12-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 361623.73214285716,
+                "Key": "2022-01-03",
+                "Count": 408495,
+                "Label": "2022-01-03",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 369572.89285714284,
+                "Key": "2022-01-10",
+                "Count": 419801,
+                "Label": "2022-01-10",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 378591.30357142858,
+                "Key": "2022-01-17",
+                "Count": 387842,
+                "Label": "2022-01-17",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 380445.67857142858,
+                "Key": "2022-01-24",
+                "Count": 358177,
+                "Label": "2022-01-24",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 376261.30357142858,
+                "Key": "2022-01-31",
+                "Count": 339206,
+                "Label": "2022-01-31",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 368584.0,
+                "Key": "2022-02-07",
+                "Count": 317132,
+                "Label": "2022-02-07",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 357616.33928571426,
+                "Key": "2022-02-14",
+                "Count": 301718,
+                "Label": "2022-02-14",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 345428.32142857142,
+                "Key": "2022-02-21",
+                "Count": 287072,
+                "Label": "2022-02-21",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 331708.96428571426,
+                "Key": "2022-02-28",
+                "Count": 267899,
+                "Label": "2022-02-28",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 316271.78571428574,
+                "Key": "2022-03-07",
+                "Count": 269876,
+                "Label": "2022-03-07",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 302885.82142857142,
+                "Key": "2022-03-14",
+                "Count": 275024,
+                "Label": "2022-03-14",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 292046.92857142858,
+                "Key": "2022-03-21",
+                "Count": 266414,
+                "Label": "2022-03-21",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 282053.94642857142,
+                "Key": "2022-03-28",
+                "Count": 252913,
+                "Label": "2022-03-28",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 272389.125,
+                "Key": "2022-04-04",
+                "Count": 258509,
+                "Label": "2022-04-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 266133.03571428574,
+                "Key": "2022-04-11",
+                "Count": 239976,
+                "Label": "2022-04-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 258347.26785714287,
+                "Key": "2022-04-18",
+                "Count": 241286,
+                "Label": "2022-04-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 252567.39285714287,
+                "Key": "2022-04-25",
+                "Count": 238350,
+                "Label": "2022-04-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 247617.625,
+                "Key": "2022-05-02",
+                "Count": 211231,
+                "Label": "2022-05-02",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 238956.75,
+                "Key": "2022-05-09",
+                "Count": 227946,
+                "Label": "2022-05-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 234635.0,
+                "Key": "2022-05-16",
+                "Count": 239922,
+                "Label": "2022-05-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 233165.26785714287,
+                "Key": "2022-05-23",
+                "Count": 238769,
+                "Label": "2022-05-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 232024.53571428571,
+                "Key": "2022-05-30",
+                "Count": 211394,
+                "Label": "2022-05-30",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 226642.82142857142,
+                "Key": "2022-06-06",
+                "Count": 185040,
+                "Label": "2022-06-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 217537.53571428571,
+                "Key": "2022-06-13",
+                "Count": 200674,
+                "Label": "2022-06-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 212436.05357142858,
+                "Key": "2022-06-20",
+                "Count": 193503,
+                "Label": "2022-06-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 207086.80357142858,
+                "Key": "2022-06-27",
+                "Count": 222907,
+                "Label": "2022-06-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 207818.14285714287,
+                "Key": "2022-07-04",
+                "Count": 223780,
+                "Label": "2022-07-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 209033.57142857142,
+                "Key": "2022-07-11",
+                "Count": 223334,
+                "Label": "2022-07-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 210429.53571428571,
+                "Key": "2022-07-18",
+                "Count": 191577,
+                "Label": "2022-07-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 205938.48214285713,
+                "Key": "2022-07-25",
+                "Count": 221923,
+                "Label": "2022-07-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 207515.80357142858,
+                "Key": "2022-08-01",
+                "Count": 207395,
+                "Label": "2022-08-01",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 206820.25,
+                "Key": "2022-08-08",
+                "Count": 201372,
+                "Label": "2022-08-08",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 205609.41071428571,
+                "Key": "2022-08-15",
+                "Count": 240140,
+                "Label": "2022-08-15",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 211500.39285714287,
+                "Key": "2022-08-22",
+                "Count": 201583,
+                "Label": "2022-08-22",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 209522.26785714287,
+                "Key": "2022-08-29",
+                "Count": 205795,
+                "Label": "2022-08-29",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 208280.05357142858,
+                "Key": "2022-09-05",
+                "Count": 205614,
+                "Label": "2022-09-05",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 206786.01785714287,
+                "Key": "2022-09-12",
+                "Count": 203987,
+                "Label": "2022-09-12",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 205310.25,
+                "Key": "2022-09-19",
+                "Count": 209370,
+                "Label": "2022-09-19",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 205149.17857142858,
+                "Key": "2022-09-26",
+                "Count": 211129,
+                "Label": "2022-09-26",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 205551.57142857142,
+                "Key": "2022-10-03",
+                "Count": 194323,
+                "Label": "2022-10-03",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 202603.75,
+                "Key": "2022-10-10",
+                "Count": 202171,
+                "Label": "2022-10-10",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 201550.21428571429,
+                "Key": "2022-10-17",
+                "Count": 199568,
+                "Label": "2022-10-17",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 200125.14285714287,
+                "Key": "2022-10-24",
+                "Count": 193555,
+                "Label": "2022-10-24",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 197658.53571428571,
+                "Key": "2022-10-31",
+                "Count": 178156,
+                "Label": "2022-10-31",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 193273.98214285713,
+                "Key": "2022-11-07",
+                "Count": 184792,
+                "Label": "2022-11-07",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 190492.76785714287,
+                "Key": "2022-11-14",
+                "Count": 193496,
+                "Label": "2022-11-14",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 189640.89285714287,
+                "Key": "2022-11-21",
+                "Count": 195200,
+                "Label": "2022-11-21",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 189309.69642857142,
+                "Key": "2022-11-28",
+                "Count": 206641,
+                "Label": "2022-11-28",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 191178.44642857142,
+                "Key": "2022-12-05",
+                "Count": 193370,
+                "Label": "2022-12-05",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 190726.10714285713,
+                "Key": "2022-12-12",
+                "Count": 190595,
+                "Label": "2022-12-12",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 190095.35714285713,
+                "Key": "2022-12-19",
+                "Count": 183510,
+                "Label": "2022-12-19",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 188266.0,
+                "Key": "2022-12-26",
+                "Count": 183223,
+                "Label": "2022-12-26",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 186718.625,
+                "Key": "2023-01-02",
+                "Count": 185993,
+                "Label": "2023-01-02",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 185957.76785714287,
+                "Key": "2023-01-09",
+                "Count": 184768,
+                "Label": "2023-01-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 185113.19642857142,
+                "Key": "2023-01-16",
+                "Count": 181390,
+                "Label": "2023-01-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 183547.33928571429,
+                "Key": "2023-01-23",
+                "Count": 183148,
+                "Label": "2023-01-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 182356.16071428571,
+                "Key": "2023-01-30",
+                "Count": 183229,
+                "Label": "2023-01-30",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 181364.23214285713,
+                "Key": "2023-02-06",
+                "Count": 273923,
+                "Label": "2023-02-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 196781.42857142858,
+                "Key": "2023-02-13",
+                "Count": 217506,
+                "Label": "2023-02-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 200922.69642857142,
+                "Key": "2023-02-20",
+                "Count": 196181,
+                "Label": "2023-02-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 200824.92857142858,
+                "Key": "2023-02-27",
+                "Count": 166342,
+                "Label": "2023-02-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 195299.01785714287,
+                "Key": "2023-03-06",
+                "Count": 134902,
+                "Label": "2023-03-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 184465.39285714287,
+                "Key": "2023-03-13",
+                "Count": 135168,
+                "Label": "2023-03-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 174542.14285714287,
+                "Key": "2023-03-20",
+                "Count": 148108,
+                "Label": "2023-03-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 167837.19642857142,
+                "Key": "2023-03-27",
+                "Count": 129192,
+                "Label": "2023-03-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 158409.03571428571,
+                "Key": "2023-04-03",
+                "Count": 67577,
+                "Label": "2023-04-03",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 138910.30357142858,
+                "Key": "2023-04-10",
+                "Count": 157104,
+                "Label": "2023-04-10",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 137462.30357142858,
+                "Key": "2023-04-17",
+                "Count": 162502,
+                "Label": "2023-04-17",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 137444.75,
+                "Key": "2023-04-24",
+                "Count": 164968,
+                "Label": "2023-04-24",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 139857.21428571429,
+                "Key": "2023-05-01",
+                "Count": 164812,
+                "Label": "2023-05-01",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 143180.0,
+                "Key": "2023-05-08",
+                "Count": 158247,
+                "Label": "2023-05-08",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 145890.625,
+                "Key": "2023-05-15",
+                "Count": 136980,
+                "Label": "2023-05-15",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 144948.125,
+                "Key": "2023-05-22",
+                "Count": 152224,
+                "Label": "2023-05-22",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 146690.66071428571,
+                "Key": "2023-05-29",
+                "Count": 156678,
+                "Label": "2023-05-29",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 148923.98214285713,
+                "Key": "2023-06-05",
+                "Count": 170696,
+                "Label": "2023-06-05",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 153507.48214285713,
+                "Key": "2023-06-12",
+                "Count": 165284,
+                "Label": "2023-06-12",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 156383.41071428571,
+                "Key": "2023-06-19",
+                "Count": 162562,
+                "Label": "2023-06-19",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 157028.5,
+                "Key": "2023-06-26",
+                "Count": 197709,
+                "Label": "2023-06-26",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 163852.375,
+                "Key": "2023-07-03",
+                "Count": 218945,
+                "Label": "2023-07-03",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 173839.69642857142,
+                "Key": "2023-07-10",
+                "Count": 180753,
+                "Label": "2023-07-10",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 176043.14285714287,
+                "Key": "2023-07-17",
+                "Count": 178950,
+                "Label": "2023-07-17",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 177639.96428571429,
+                "Key": "2023-07-24",
+                "Count": 139838,
+                "Label": "2023-07-24",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 171882.80357142858,
+                "Key": "2023-07-31",
+                "Count": 129438,
+                "Label": "2023-07-31",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 164217.46428571429,
+                "Key": "2023-08-07",
+                "Count": 135540,
+                "Label": "2023-08-07",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 158048.66071428571,
+                "Key": "2023-08-14",
+                "Count": 127626,
+                "Label": "2023-08-14",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 150844.10714285713,
+                "Key": "2023-08-21",
+                "Count": 131109,
+                "Label": "2023-08-21",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 145030.625,
+                "Key": "2023-08-28",
+                "Count": 301345,
+                "Label": "2023-08-28",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 170226.69642857142,
+                "Key": "2023-09-04",
+                "Count": 239442,
+                "Label": "2023-09-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 181890.39285714287,
+                "Key": "2023-09-11",
+                "Count": 247327,
+                "Label": "2023-09-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 194216.89285714287,
+                "Key": "2023-09-18",
+                "Count": 231007,
+                "Label": "2023-09-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 203122.28571428571,
+                "Key": "2023-09-25",
+                "Count": 226854,
+                "Label": "2023-09-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 210388.67857142858,
+                "Key": "2023-10-02",
+                "Count": 229985,
+                "Label": "2023-10-02",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 217358.75,
+                "Key": "2023-10-09",
+                "Count": 248067,
+                "Label": "2023-10-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 225947.98214285713,
+                "Key": "2023-10-16",
+                "Count": 250154,
+                "Label": "2023-10-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 232791.51785714287,
+                "Key": "2023-10-23",
+                "Count": 237171,
+                "Label": "2023-10-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 235269.98214285713,
+                "Key": "2023-10-30",
+                "Count": 237024,
+                "Label": "2023-10-30",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 235766.03571428571,
+                "Key": "2023-11-06",
+                "Count": 237006,
+                "Label": "2023-11-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 234367.53571428571,
+                "Key": "2023-11-13",
+                "Count": 233449,
+                "Label": "2023-11-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 233482.76785714287,
+                "Key": "2023-11-20",
+                "Count": 224231,
+                "Label": "2023-11-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 231058.94642857142,
+                "Key": "2023-11-27",
+                "Count": 231140,
+                "Label": "2023-11-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 230281.30357142858,
+                "Key": "2023-12-04",
+                "Count": 215247,
+                "Label": "2023-12-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 226663.25,
+                "Key": "2023-12-11",
+                "Count": 195307,
+                "Label": "2023-12-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 219691.75,
+                "Key": "2023-12-18",
+                "Count": 191175,
+                "Label": "2023-12-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 212601.64285714287,
+                "Key": "2023-12-25",
+                "Count": 66855,
+                "Label": "2023-12-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 184327.46428571429,
+                "Key": "2024-01-01",
+                "Count": 35455,
+                "Label": "2024-01-01",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 153719.33928571429,
+                "Key": "2024-01-08",
+                "Count": 381516,
+                "Label": "2024-01-08",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 188509.89285714287,
+                "Key": "2024-01-15",
+                "Count": 242257,
+                "Label": "2024-01-15",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 195852.55357142858,
+                "Key": "2024-01-22",
+                "Count": 8776,
+                "Label": "2024-01-22",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 161408.41071428571,
+                "Key": "2024-01-29",
+                "Count": 8190,
+                "Label": "2024-01-29",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 130871.64285714286,
+                "Key": "2024-02-05",
+                "Count": 203088,
+                "Label": "2024-02-05",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 138995.96428571429,
+                "Key": "2024-02-12",
+                "Count": 203745,
+                "Label": "2024-02-12",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 147738.53571428571,
+                "Key": "2024-02-19",
+                "Count": 215982,
+                "Label": "2024-02-19",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 158871.67857142858,
+                "Key": "2024-02-26",
+                "Count": 226183,
+                "Label": "2024-02-26",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 171457.23214285713,
+                "Key": "2024-03-04",
+                "Count": 226831,
+                "Label": "2024-03-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 183533.35714285713,
+                "Key": "2024-03-11",
+                "Count": 216286,
+                "Label": "2024-03-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 190869.73214285713,
+                "Key": "2024-03-18",
+                "Count": 234929,
+                "Label": "2024-03-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 198306.08928571429,
+                "Key": "2024-03-25",
+                "Count": 211350,
+                "Label": "2024-03-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 204149.53571428571,
+                "Key": "2024-04-01",
+                "Count": 216011,
+                "Label": "2024-04-01",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 211377.21428571429,
+                "Key": "2024-04-08",
+                "Count": 208826,
+                "Label": "2024-04-08",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 213621.23214285713,
+                "Key": "2024-04-15",
+                "Count": 223211,
+                "Label": "2024-04-15",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 214851.21428571429,
+                "Key": "2024-04-22",
+                "Count": 224742,
+                "Label": "2024-04-22",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 215995.25,
+                "Key": "2024-04-29",
+                "Count": 221479,
+                "Label": "2024-04-29",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 216181.66071428571,
+                "Key": "2024-05-06",
+                "Count": 191575,
+                "Label": "2024-05-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 210929.91071428571,
+                "Key": "2024-05-13",
+                "Count": 221441,
+                "Label": "2024-05-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 211629.375,
+                "Key": "2024-05-20",
+                "Count": 324933,
+                "Label": "2024-05-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 230905.80357142858,
+                "Key": "2024-05-27",
+                "Count": 230753,
+                "Label": "2024-05-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 231424.25,
+                "Key": "2024-06-03",
+                "Count": 224590,
+                "Label": "2024-06-03",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 230916.73214285713,
+                "Key": "2024-06-10",
+                "Count": 220059,
+                "Label": "2024-06-10",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 229363.67857142858,
+                "Key": "2024-06-17",
+                "Count": 224712,
+                "Label": "2024-06-17",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 228569.23214285713,
+                "Key": "2024-06-24",
+                "Count": 238396,
+                "Label": "2024-06-24",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 229934.67857142858,
+                "Key": "2024-07-01",
+                "Count": 235386,
+                "Label": "2024-07-01",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 230491.46428571429,
+                "Key": "2024-07-08",
+                "Count": 236641,
+                "Label": "2024-07-08",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 231082.28571428571,
+                "Key": "2024-07-15",
+                "Count": 266693,
+                "Label": "2024-07-15",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 236768.78571428571,
+                "Key": "2024-07-22",
+                "Count": 232066,
+                "Label": "2024-07-22",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 234930.5,
+                "Key": "2024-07-29",
+                "Count": 274895,
+                "Label": "2024-07-29",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 240550.51785714287,
+                "Key": "2024-08-05",
+                "Count": 229510,
+                "Label": "2024-08-05",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 238959.60714285713,
+                "Key": "2024-08-12",
+                "Count": 250204,
+                "Label": "2024-08-12",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 241086.25,
+                "Key": "2024-08-19",
+                "Count": 265710,
+                "Label": "2024-08-19",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 245524.42857142858,
+                "Key": "2024-08-26",
+                "Count": 265279,
+                "Label": "2024-08-26",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 249070.44642857142,
+                "Key": "2024-09-02",
+                "Count": 259946,
+                "Label": "2024-09-02",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 250939.73214285713,
+                "Key": "2024-09-09",
+                "Count": 275738,
+                "Label": "2024-09-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 255244.19642857142,
+                "Key": "2024-09-16",
+                "Count": 293441,
+                "Label": "2024-09-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 261989.33928571429,
+                "Key": "2024-09-23",
+                "Count": 326089,
+                "Label": "2024-09-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 273550.19642857142,
+                "Key": "2024-09-30",
+                "Count": 300119,
+                "Label": "2024-09-30",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 279412.91071428574,
+                "Key": "2024-10-07",
+                "Count": 309439,
+                "Label": "2024-10-07",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 285724.67857142858,
+                "Key": "2024-10-14",
+                "Count": 312266,
+                "Label": "2024-10-14",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 291924.41071428574,
+                "Key": "2024-10-21",
+                "Count": 323173,
+                "Label": "2024-10-21",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 298594.03571428574,
+                "Key": "2024-10-28",
+                "Count": 295611,
+                "Label": "2024-10-28",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 299038.85714285716,
+                "Key": "2024-11-04",
+                "Count": 295534,
+                "Label": "2024-11-04",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 298935.98214285716,
+                "Key": "2024-11-11",
+                "Count": 314065,
+                "Label": "2024-11-11",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 301601.94642857142,
+                "Key": "2024-11-18",
+                "Count": 320258,
+                "Label": "2024-11-18",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 304407.39285714284,
+                "Key": "2024-11-25",
+                "Count": 312801,
+                "Label": "2024-11-25",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 305086.23214285716,
+                "Key": "2024-12-02",
+                "Count": 308473,
+                "Label": "2024-12-02",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 304646.5,
+                "Key": "2024-12-09",
+                "Count": 302211,
+                "Label": "2024-12-09",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 303403.125,
+                "Key": "2024-12-16",
+                "Count": 284909,
+                "Label": "2024-12-16",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 299032.75,
+                "Key": "2024-12-23",
+                "Count": 218530,
+                "Label": "2024-12-23",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 283247.01785714284,
+                "Key": "2024-12-30",
+                "Count": 214110,
+                "Label": "2024-12-30",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 268345.85714285716,
+                "Key": "2025-01-06",
+                "Count": 292851,
+                "Label": "2025-01-06",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 269453.14285714284,
+                "Key": "2025-01-13",
+                "Count": 295207,
+                "Label": "2025-01-13",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 271030.42857142858,
+                "Key": "2025-01-20",
+                "Count": 290351,
+                "Label": "2025-01-20",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 271746.41071428574,
+                "Key": "2025-01-27",
+                "Count": 286766,
+                "Label": "2025-01-27",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 272245.67857142858,
+                "Key": "2025-02-03",
+                "Count": 292729,
+                "Label": "2025-02-03",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 274407.83928571426,
+                "Key": "2025-02-10",
+                "Count": 335859,
+                "Label": "2025-02-10",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 284630.21428571426,
+                "Key": "2025-02-17",
+                "Count": 494435,
+                "Label": "2025-02-17",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 322680.69642857142,
+                "Key": "2025-02-24",
+                "Count": 502304,
+                "Label": "2025-02-24",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 358703.78571428574,
+                "Key": "2025-03-03",
+                "Count": 520495,
+                "Label": "2025-03-03",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 394093.21428571426,
+                "Key": "2025-03-10",
+                "Count": 521217,
+                "Label": "2025-03-10",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 424219.33928571426,
+                "Key": "2025-03-17",
+                "Count": 527721,
+                "Label": "2025-03-17",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 450022.83928571426,
+                "Key": "2025-03-24",
+                "Count": 322579,
+                "Label": "2025-03-24",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 434999.73214285716,
+                "Key": "2025-03-31",
+                "Count": 278012,
+                "Label": "2025-03-31",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 411529.44642857142,
+                "Key": "2025-04-07",
+                "Count": 280267,
+                "Label": "2025-04-07",
+                "Property": "processedOnDate"
+            },
+            {
+                "Interval": "week",
+                "MovAvg": 388682.17857142858,
+                "Key": "2025-04-14",
+                "Count": 151902,
+                "Label": "2025-04-14",
+                "Property": "processedOnDate"
+            }
+        ]
+    },
+    "IsCountAccurate": true
+}

@@ -1,27 +1,19 @@
-
+// src/app/services/time-data.service.ts
 import { Injectable } from '@angular/core';
-import dayjs from 'dayjs';
+import rawModelData from './mock-data.json'; // ← Import diretto
 
 @Injectable({
   providedIn: 'root'
 })
 export class TimeDataService {
-  generateDemoData(): { index: number; date: string; value: number }[] {
-    const end = new Date();
-    const start = new Date();
-    start.setDate(start.getDate() - 90);
+  convertModelToChartData(): { index: number; date: string; value: number }[] {
+    const timePeriods = rawModelData.Aggregations?.timePeriods;
+    if (!Array.isArray(timePeriods)) return [];
 
-    const data: { index: number; date: string; value: number }[] = [];
-
-    let i = 0;
-    for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
-      data.push({
-        index: i++,
-        date: dayjs(d).format('YYYY-MM-DD'),
-        value: Math.floor(Math.random() * 1000) + 500
-      });
-    }
-
-    return data;
+    return timePeriods.map((item, index) => ({
+      index,
+      date: item.Key,
+      value: item.Count
+    }));
   }
 }

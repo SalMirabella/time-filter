@@ -22,7 +22,7 @@ export class AppComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    const rawData = this.timeDataService.generateDemoData();
+    const rawData = this.timeDataService.convertModelToChartData();
     this.timeData = rawData
   }
 
